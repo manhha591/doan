@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DoAnThueXe</string>
+    <string name="loading">loading\n</string>
+    <string name="gender">gender\n</string>
+    <string name="dob">dob\n</string>
+    <string name="google_map_api_key">AIzaSyCAYcJda75tlRP_05Rwm1DTvgKFiqBmKbU</string>
+    <string name="open_nav">Open navigation drawer</string>
+    <string name="close_nav">Close navigation drawer</string>
+
+    <string-array name="rangeSlider">
+        <item>2000</item>
+        <item>2024</item>
+    </string-array>
+    <string-array name="rangPrice">
+        <item>0</item>
+        <item>20000000</item>
+    </string-array>
+
+</resources>

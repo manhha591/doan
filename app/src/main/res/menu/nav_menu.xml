@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/user"
+        android:title="Danh sách người dùng"
+        android:icon="@drawable/baseline_account_circle_24"
+        app:showAsAction="always"
+        app:tint="@android:color/white" />
+    <item
+        android:title="Danh sách xe"
+        android:icon="@drawable/baseline_directions_car_24"
+        android:id="@+id/car"
+        app:tint="@android:color/white"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/trip"
+        android:title="Lịch sử chuyến đi"
+        android:icon="@drawable/baseline_directions_car_24"
+        app:showAsAction="always"
+        app:tint="@android:color/white" />
+
+
+</menu>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="8dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+
+            android:paddingTop="9dp"
+            >
+
+            <RelativeLayout
+                android:id="@+id/rl_top"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:paddingStart="10dp"
+
+                android:paddingEnd="10dp">
+
+                <TextView
+                    android:id="@+id/txt_name_car"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:text="Alphard 2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_centrel"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@id/rl_top"
+              >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#888888" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentTop="true"
+                    android:background="#888888" />
+
+                <ImageView
+                    android:id="@+id/img_avatar_car"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@color/black">
+
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="12dp"
+                    android:layout_toEndOf="@+id/img_avatar_car"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    android:paddingTop="10dp">
+
+
+                    <TextView
+                        android:id="@+id/txt_start_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="Ngày bắt đầu: 14/04/2024" />
+                    <TextView
+                        android:id="@+id/txt_end_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="Ngày kết thúc: 14/04/2024" />
+
+                    <TextView
+                        android:id="@+id/txt_tongtien"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:text="Tổng tiền: 900k  " />
+
+                    <TextView
+                        android:id="@+id/txt_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_vitri"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:layout_below="@id/rl_centrel">
+
+
+
+                <TextView
+                    android:id="@+id/txt_vi_tri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:paddingEnd="20dp"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+
+                    android:text="Lộ trình" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@id/txt_vi_tri"
+                    android:src="@drawable/baseline_location_on_24" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

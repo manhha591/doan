@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:title="Chat"
+        android:icon="@drawable/baseline_search_24"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:tint="@android:color/white"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+    <item
+        android:title="Notification"
+        android:icon="@drawable/baseline_notifications_none_24"
+        android:id="@+id/notification"
+        app:tint="@android:color/white"
+        app:showAsAction="always"/>
+    <item
+        android:title="exit"
+        android:icon="@drawable/baseline_exit_to_app_24_while"
+        android:id="@+id/btn_exit"
+        android:iconTint="@color/white"
+        app:showAsAction="always"/>
+
+</menu>
